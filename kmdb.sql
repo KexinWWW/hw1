@@ -217,7 +217,7 @@ INSERT INTO characters (
 ) , (
     "Commissioner Gordon" ,
     5 , 
-    1 ,
+    1 
 ) , (
     "Commissioner Gordon" ,
     5 ,
