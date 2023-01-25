@@ -268,7 +268,7 @@ INSERT INTO characters (
 -- The SQL statement for the movies output
 -- TODO!
 SELECT movies.title, movies.released_year, movies.mpaa_rating, studios.studio_name
-FROM studios INNER JOIN movies ON movies.studio_id = studios.id
+FROM movies INNER JOIN studios ON movies.studio_id = studios.id
 ;
 
 
@@ -281,4 +281,7 @@ FROM studios INNER JOIN movies ON movies.studio_id = studios.id
 
 -- The SQL statement for the cast output
 -- TODO!
-SELECT
+SELECT movies.title, actors.actor_name, characters.character_name
+FROM movies INNER JOIN characters ON movies.id = characters.movie_id
+INNER JOIN actors ON characters.actor_id = actors.id
+;
