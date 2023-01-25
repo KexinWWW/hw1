@@ -169,7 +169,7 @@ INSERT INTO movies (
 );
 
 INSERT INTO actors (
-    "actor_name",
+    "actor_name"
 ) VALUES (
     "Christian Bale"
 ) , (
@@ -196,7 +196,7 @@ INSERT INTO actors (
 
 INSERT INTO characters (
     "character_name",
-    "actor_id" ,
+    "actor_id",
     "movie_id"
 ) VALUES (
     "Alfred" ,
@@ -210,7 +210,7 @@ INSERT INTO characters (
     "Rachel Dawes" ,
     4 ,
     1
-) ， (
+) , (
     "Rachel Dawes" ,
     8 ,
     2
