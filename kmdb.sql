@@ -120,12 +120,12 @@ CREATE TABLE movies (
 
 CREATE TABLE studios (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  studio_name TEXT,
+  studio_name TEXT
 );
 
 CREATE TABLE actors (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  actor_name TEXT,
+  actor_name TEXT
 );
 
 CREATE TABLE characters (
