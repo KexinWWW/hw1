@@ -284,4 +284,5 @@ FROM movies INNER JOIN studios ON movies.studio_id = studios.id
 SELECT movies.title, actors.actor_name, characters.character_name
 FROM movies INNER JOIN characters ON movies.id = characters.movie_id
 INNER JOIN actors ON characters.actor_id = actors.id
+ORDER BY movies.id
 ;
