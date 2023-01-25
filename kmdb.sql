@@ -251,11 +251,11 @@ INSERT INTO characters (
     10,
     3
 ) , (
-    "Selina Kyle"
+    "Selina Kyle" ,
     11,
     3
 ) , (
-    "Ra's Al Ghul"
+    "Ra's Al Ghul" ,
     3 ,
     1
 );
